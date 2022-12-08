@@ -31,9 +31,10 @@ This quiz asks five questions about grocery shopping habits. This project is rel
 Do you wanna shop even smarter? Then check out [SHOOD](https://mjrosi.github.io/my-first-portfolio/)", which encourage the user to check out the SHOOD website.
   - If the user's score is less than 17, this message will show: "It looks like you could up your shopping game!
 Lucky for you there is [SHOOD](https://mjrosi.github.io/my-first-portfolio/)", which recommond the user to check out the SHOOD website for a smart grocery shopping service.
- - A start-over button for reset the quiz and back to the start section. 
+  - A start-over button for reset the quiz and back to the start section. 
 
-![score-section](assets/images/Screenshot-score.png)
+![score-section-more-than-17](assets/images/Screenshot-score.png)
+![score-section-less-than-17](assets/images/Screenshot-score-unsmart.png)
 
 
 ## Testing
@@ -57,7 +58,7 @@ Lucky for you there is [SHOOD](https://mjrosi.github.io/my-first-portfolio/)", w
 
 - Accessibility
   - I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools.
-  
+
 ![access](assets/images/Screenshot-acces.png)
 
 
