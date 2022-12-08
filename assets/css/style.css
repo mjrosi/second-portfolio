@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(/rm222-mind-19.png);
+    font-family: 'Poppins', sans-serif;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+#title {
+    font-family: Barlow Condensed, sans-serif;
+    text-align: center;
+    padding: 0.8rem 0;
+    font-size: 4rem;
+    color: #3c3c68;
+}
+
+h2 {
+    color: #3c3c68;
+}
+
+/* start and information box */
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* display box for questions and options */
+
+.display-box {
+    margin: 3rem auto;
+    width: 90vw;
+    padding: 2rem;
+    background: rgb(60, 60, 104, 0.1);
+    cursor: default;
+    border-radius: 1rem;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#question {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.option {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    width: 80%;
+    background: #3c3c68;
+    border-radius: 1rem;
+    box-shadow: 0 6px 6px grey;
+}
+
+/* progress of answered questions */
+#progress {
+    margin-top: 1.5rem;
+    color: #3c3c68;
+}
+
+button {
+    padding: 0.7rem 1.5rem;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    border-radius: 1.5rem;
+    color: white;
+    background: #3c3c68;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+}
+
+#start,
+#start-over-btn {
+    padding: 0.2rem 7.5rem;
+    margin: 3rem auto 0;
+    box-shadow: 0 6px 6px grey;
+}
+
+.option:hover,
+#start:hover,
+#start-over-btn:hover {
+    color: #3c3c68;
+    background: rgb(60, 60, 104, 0.1);
+
+}
+
+/* display box for score*/
+#score-box {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+#score {
+    font-size: 2rem;
+}
+
+#start-over-btn {
+    margin-top: 4rem;
+}
+
+/* media queries */
+
+@media screen and (max-width: 404px) {
+    body {
+        background: #e9eaff;
+        height: auto;
+    }
+
+    .display-box {
+        margin: auto;
+        padding-bottom: 2rem;
+    }
+
+    #score {
+        font-size: 1.5rem;
+    }
+}
