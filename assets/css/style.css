@@ -132,6 +132,10 @@ button {
         height: auto;
     }
 
+    #container, #quiz-container, #score-box {
+        padding: 4rem 0;
+    }
+
     .display-box {
         margin: auto;
         padding-bottom: 2rem;
