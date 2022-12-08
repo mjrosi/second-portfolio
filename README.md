@@ -1,7 +1,7 @@
 # Smart shopping quiz
 You can see the live link [here.](https://mjrosi.github.io/second-portfolio/)
 
-This quiz asks five questions about grocery shopping habits. This quiz is related to my first project, [SHOOD](https://mjrosi.github.io/my-first-portfolio/) which is a search and comparison engine. In this quiz each option of the questions has a point from 1 to 5. Total points is 25.
+This quiz asks five questions about grocery shopping habits. This project is related to my first project, [SHOOD](https://mjrosi.github.io/my-first-portfolio/) which is a search and comparison engine. In this quiz each option of the questions has a point from 1 to 5. Total points is 25. At the end of the quiz the total score is calculated and user can see it, along with two different messages, deponding on user's score.
 
 ![responsivness](assets/images/Screenshot-responsive.png)
 
@@ -18,8 +18,9 @@ This quiz asks five questions about grocery shopping habits. This quiz is relate
 
 - __Question secction__
 
-  - This section display the questions.
+  - This section display the questions and options. Total number of questions are five. Each question has four options.
   - After choosing an option, next option will automatically load.
+  - There is a progress bar at the bottom of this section which shows he number of answered questions of total questions.
 
 ![question-section](assets/images/Screenshot-questions.png)
 
