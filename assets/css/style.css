@@ -126,7 +126,7 @@ button {
 
 /* media queries */
 
-@media screen and (max-width: 404px) {
+@media screen and (max-width: 480px) {
     body {
         background: #e9eaff;
         height: auto;
