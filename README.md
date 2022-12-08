@@ -77,7 +77,7 @@ The live link can be found here - https://mjrosi.github.io/second-portfolio/
 
 ### Content 
 
-- The code to the start over button event, location.reload(), is taken from [here](https://www.freecodecamp.org/news/.refresh-the-page-in-javascript-js-reload-window-tutorial/).
+- The code to the start over button event, location.reload(), is taken from [here](https://www.freecodecamp.org/news/refresh-the-page-in-javascript-js-reload-window-tutorial/).
 - The icons in the score section is taken from [Font Awesome](https://fontawesome.com/).
 
 ### Media
