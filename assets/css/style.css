@@ -132,7 +132,7 @@ button {
         height: auto;
     }
 
-    title {
+    #title {
         padding: 2rem 0;
         font-size: 3rem;
     }
