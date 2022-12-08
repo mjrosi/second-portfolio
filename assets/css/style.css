@@ -131,12 +131,11 @@ button {
         background: #e9eaff;
         height: auto;
     }
+
     title {
         padding: 2rem 0;
         font-size: 3rem;
     }
-
-    
 
     #container,
     #quiz-container,

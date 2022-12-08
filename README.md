@@ -19,7 +19,7 @@ This quiz asks five questions about grocery shopping habits. This project is rel
 - __Question secction__
 
   - This section display the questions and options. Total number of questions are five. Each question has four options.
-  - After choosing an option, next option will automatically load.
+  - After choosing an option, next questions and options will automatically load.
   - There is a progress bar at the bottom of this section which shows he number of answered questions of total questions.
 
 ![question-section](assets/images/Screenshot-questions.png)
@@ -41,7 +41,7 @@ Lucky for you there is [SHOOD](https://mjrosi.github.io/my-first-portfolio/)", w
 - I confirmed that this project is responsive, looks good and functions on all standard screen sizes using the devtools device toolbar.
 - I confirmed that the title, text in start section, all questions and options and button text are all readable.
 - I have confirmed that the start-button and start-over button are working.
-- I have confirmed that the showing questions and option are working.
+- I have confirmed that the showing questions and options are working.
 - I have confirmed that the calculation of the score is correct and showing the score is working.
 
 ### Validator Testing 
@@ -57,6 +57,7 @@ Lucky for you there is [SHOOD](https://mjrosi.github.io/my-first-portfolio/)", w
 
 - Accessibility
   - I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools.
+  
 ![access](assets/images/Screenshot-acces.png)
 
 
