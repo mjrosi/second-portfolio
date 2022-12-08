@@ -131,14 +131,30 @@ button {
         background: #e9eaff;
         height: auto;
     }
+    title {
+        padding: 2rem 0;
+        font-size: 3rem;
+    }
 
-    #container, #quiz-container, #score-box {
-        padding: 4rem 0;
+    
+
+    #container,
+    #quiz-container,
+    #score-box {
+        padding: 2rem 0;
     }
 
     .display-box {
         margin: auto;
         padding-bottom: 2rem;
+    }
+
+    .option {
+        font-size: 1rem;
+    }
+
+    #question {
+        font-size: 1.5rem;
     }
 
     #score {
